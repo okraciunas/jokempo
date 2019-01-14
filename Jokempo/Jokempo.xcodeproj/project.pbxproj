@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5B08C321E8153000E0B44C /* GameResultMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B08C221E8153000E0B44C /* GameResultMessages.swift */; };
 		1AC61FAD21E636CC0012FFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC61FAC21E636CC0012FFF8 /* AppDelegate.swift */; };
 		1AC61FAF21E636CC0012FFF8 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC61FAE21E636CC0012FFF8 /* PlayViewController.swift */; };
 		1AC61FB221E636CC0012FFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC61FB021E636CC0012FFF8 /* Main.storyboard */; };
 		1AC61FB421E636CE0012FFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC61FB321E636CE0012FFF8 /* Assets.xcassets */; };
 		1AC61FB721E636CE0012FFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC61FB521E636CE0012FFF8 /* LaunchScreen.storyboard */; };
 		1AC61FBF21E646270012FFF8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC61FBE21E646270012FFF8 /* ResultViewController.swift */; };
-		1AC61FC121E687BC0012FFF8 /* UserChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC61FC021E687BC0012FFF8 /* UserChoice.swift */; };
+		1AC61FC121E687BC0012FFF8 /* PlayerChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC61FC021E687BC0012FFF8 /* PlayerChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A5B08C221E8153000E0B44C /* GameResultMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultMessages.swift; sourceTree = "<group>"; };
 		1AC61FA921E636CC0012FFF8 /* Jokempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC61FAC21E636CC0012FFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AC61FAE21E636CC0012FFF8 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +27,7 @@
 		1AC61FB621E636CE0012FFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AC61FB821E636CE0012FFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AC61FBE21E646270012FFF8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		1AC61FC021E687BC0012FFF8 /* UserChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChoice.swift; sourceTree = "<group>"; };
+		1AC61FC021E687BC0012FFF8 /* PlayerChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,8 @@
 				1AC61FB521E636CE0012FFF8 /* LaunchScreen.storyboard */,
 				1AC61FB821E636CE0012FFF8 /* Info.plist */,
 				1AC61FBE21E646270012FFF8 /* ResultViewController.swift */,
-				1AC61FC021E687BC0012FFF8 /* UserChoice.swift */,
+				1AC61FC021E687BC0012FFF8 /* PlayerChoice.swift */,
+				1A5B08C221E8153000E0B44C /* GameResultMessages.swift */,
 			);
 			path = Jokempo;
 			sourceTree = "<group>";
@@ -142,7 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC61FAF21E636CC0012FFF8 /* PlayViewController.swift in Sources */,
-				1AC61FC121E687BC0012FFF8 /* UserChoice.swift in Sources */,
+				1AC61FC121E687BC0012FFF8 /* PlayerChoice.swift in Sources */,
+				1A5B08C321E8153000E0B44C /* GameResultMessages.swift in Sources */,
 				1AC61FAD21E636CC0012FFF8 /* AppDelegate.swift in Sources */,
 				1AC61FBF21E646270012FFF8 /* ResultViewController.swift in Sources */,
 			);

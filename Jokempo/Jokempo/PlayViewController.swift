@@ -16,23 +16,23 @@ class PlayViewController: UIViewController {
     
     @IBAction func rock(sender: UIButton) {
         let resultViewController: ResultViewController = storyboard?.instantiateViewController(withIdentifier: "ResultViewController") as! ResultViewController
-        resultViewController.userChoice = UserChoice.rock
+        resultViewController.userChoice = .Rock
         
         present(resultViewController, animated: true, completion: nil)
     }
     
     @IBAction func paper(sender: UIButton) {
-        performSegue(withIdentifier: "performSegueShowResult", sender: UserChoice.paper)
+        performSegue(withIdentifier: "performSegueShowResult", sender: PlayerChoice.Paper)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var userChoice: UserChoice!
+        var userChoice: PlayerChoice!
         
         if segue.identifier == "performSegueShowResult" {
-            userChoice = UserChoice.paper
+            userChoice = PlayerChoice.Paper
         }
         else if segue.identifier == "prepareShowResult" {
-            userChoice = UserChoice.scissors
+            userChoice = PlayerChoice.Scissors
         }
         
         let resultViewController: ResultViewController = segue.destination as! ResultViewController
